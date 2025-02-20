@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 3;
+  text-align: center;
+}
+
+.card{
+  width: 210px;
+  height: 210px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.img img{
+  width: 150px;
+  height: 150px;
+}
+
+.pages{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.active{
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: teal;
+  color: white;
+  padding: 0px 5px;
+}
+
+.active, .non-active {
+  cursor: pointer;
+}
